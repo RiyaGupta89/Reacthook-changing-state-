@@ -1,0 +1,26 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+code {
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid #fff;
+  background-color: purple;
+  border-radius: 13px;
+  color: #fff;
+  padding: 1em 1.25em;
+}
+
+.btn:focus {
+  outline: none;
+}
